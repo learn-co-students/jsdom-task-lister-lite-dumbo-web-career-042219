@@ -12,6 +12,12 @@
     <form id="create-task-form" action="#" method="post">
       <label for="new-task-description">Task description:</label>
       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+      <input type="text" id="new-task-name" name="new-task-name" placeholder="name">
+      <select name="new-task-priority" id="new-task-priority" placeholder="low">
+          <option value="high">High</option>
+          <option value="medium">Medium</option>
+          <option value="low">Low</option>
+</select>
       <input type="submit" value="Create New Task">
     </form>
 
@@ -22,6 +28,8 @@
     </div>
 
     <script src="./src/index.js"></script>
+    <script src="./src/taskList.js"></script>
+    <script src="./src/task.js"></script>
   </div>
 
 </body>
